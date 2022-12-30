@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-	@@ -8,30 +8,35 @@
+  "scripts": {
+    "init-project": "npm install && npm-run-all init:*",
     "init:dirs": "mkdirp sass css vendor images js",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
